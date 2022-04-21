@@ -3,7 +3,7 @@ services:
   demo_service:
     build: .
 #    image: demo_service:latest
-    image: davidnjau21/demo_service
+    image: davidnjau21/demo_test_service
     container_name: demo_service
     command: bash -c "java -jar ./demo_service/DemoTest-0.0.1-SNAPSHOT.jar"
     ports:
